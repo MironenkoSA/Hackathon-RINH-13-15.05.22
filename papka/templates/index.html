@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacknight</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/style.css') }}">
+    </head>
+<body>
+  <header>
+        <div class="head1">
+
+            <div class="head1-1">
+              
+            <img width="80" src="{{ url_for('static', filename = 'img/logo.svg') }}" alt="logo">
+              
+            <nav  class="head1-2">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Контракты</a></li>
+                </ul>
+            </nav>
+            
+          </div>
+
+          <div class="head1-3">
+            <button class="btn2" onclick="window.location.href = 'avtoriz.html'">Войти</button>
+            <button  class="btn1" onclick="window.location.href = 'regist.html'">Регистрация</button>
+          </div>
+
+        </div>
+
+
+
+        <div class="head2">
+          <div class="head2-text">
+            <h1>О нашей компании</h1>
+            <p>Создайте график для любой валютной пары в мире, 
+              чтобы увидеть историю их валюты. Эти графики валют используют текущие 
+              среднерыночные курсы, просты в использовании и очень надежны.</p>
+          </div>
+        </div>          
+  </header>
+
+  <main>
+
+<div class="main-cards">
+  <h2>Наши преимущества</h2>
+<div class="cards">
+  <div class="block__row">
+
+    <div class="block__element block__element_1">
+      <div class="block__content">
+
+        <img width="80" src="{{ url_for('static', filename = 'img/logo.svg') }}" alt="logo">
+
+        <h3>Зерно</h3>
+        <p>текст текст текст текст текст текст текст текст текст текст текст текст текст 
+        </p>
+
+      </div>
+    </div>
+
+    <div class="block__element block__element_2">
+      <div class="block__content">
+
+        <img width="80" src="{{ url_for('static', filename = 'img/logo.svg') }}" alt="logo">
+
+        <h3>Зерно</h3>
+        <p>текст текст текст текст текст текст текст текст текст текст текст текст текст 
+        </p>
+
+      </div>
+    </div>
+
+    <div class="block__element block__element_3">
+      <div class="block__content">
+
+        <img width="80" src="{{ url_for('static', filename = 'img/logo.svg') }}" alt="logo">
+
+        <h3>Зерно</h3>
+        <p>текст текст текст текст текст текст текст текст текст текст текст текст текст 
+        </p>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacknight</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/style.css') }}">
+    </head>
+<body>
+  <header>
+        <div class="head1">
+
+            <div class="head1-1">
+              
+            <img width="80" src='img/logo.svg' alt="logo">
+              
+            <nav  class="head1-2">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Контракты</a></li>
+                </ul>
+            </nav>
+            
+          </div>
+
+        </div>          
+  </header>
+  <main>
+      <div class="regist">
+        <div class="regist-1">
+            <h2>Авторизация</h2>
+            <form>
+                <input class="in-put" type="text" name="name" placeholder="Логин" required>
+                <input class="in-put" type="text" name="name" placeholder="Пароль" required>            
+                <button type="submit">Войти</button>
+            </form>
+        </div>
+      </div>
+  </main>
+</body>
+</html>

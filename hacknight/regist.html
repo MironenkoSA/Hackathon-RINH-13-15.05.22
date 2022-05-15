@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacknight</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+  <header>
+        <div class="head1">
+
+            <div class="head1-1">
+              
+            <img width="80" src='img/logo.svg' alt="logo">
+              
+            <nav  class="head1-2">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Контракты</a></li>
+                </ul>
+            </nav>
+            
+          </div>
+
+        </div>          
+  </header>
+  <main>
+      <div class="regist">
+        <div class="regist-1">
+            <h2>Регистрация</h2>
+            <form>
+                <input class="in-put" type="text" name="name" placeholder="Логин" required>
+                <input class="in-put" type="password" name="name" placeholder="Пароль" required>
+                <input class="in-put" type="text" name="name" placeholder="ФИО" required>
+                <div class="form-1">
+                    <input class="in-put" type="text" name="name" placeholder="Номер телефона" required pattern="[0-9]">
+                    <input class="in-put" type="email" name="name" placeholder="Email" required>
+                </div>
+
+                <input id="checkbox" type="checkbox" name="checkbox" onchange="document.getElementById('submit').disabled = !this.checked;" />
+                <label for="checkbox">Настоящим подтверждаю, что я согласен</label>    
+
+                <button type="submit">Зарегистрироваться</button> 
+                <p>Если есть аккаунт?<a href="avtoriz.html">Войти</a></p>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+  </main>
+  <footer>
+    <div class="foot">
+      <div class="foot-1"><img width="100" src='img/logo.svg' alt="logo"></div>
+
+        <div class="foot-1" style="width: 300px;">
+          <h3>Контракты</h3>
+          <div class="foot-1-1">
+            <div>
+              <img width="25" src='img/mail.png' alt="mail">
+              <p>Email: Hacknight@gmail.com</p>
+            </div>
+            <div>
+              <img width="25" src='img/tel.png' alt="tel">
+              <p>Телефон: +7 979 999-99-99</p>
+            </div>
+            <div>
+              <img width="25" src='img/addres.png' alt="addres">
+              <p>Адрес: г.Ростов-на-Дону ул.Большая Садовая 69</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="foot-1">
+          <h3>Страницы</h3>
+          <div class="foot-1-2">
+            <a href="index.html">Главная</a>
+            <a href="contracts.html">Контракты</a>
+          </div>
+        </div>
+
+        <div class="foot-1">
+          <h3>Разработка</h3>
+          <div>
+            <p>Команда : Hacknight</p>
+            <p>Студенты РКСИ 1-4 курс</p>
+            <p>15.05.2022</p>
+          </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
